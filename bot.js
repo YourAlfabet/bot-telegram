@@ -398,7 +398,7 @@ Fitur Nsfw:
 /gasm
 /hentai
 
-By Rzky`)
+By Telegram`)
 break
 case 'mtk':
 if (isMtk(from, mate)) return reply(`Masih ada soal yang belum di selesaikan`)
