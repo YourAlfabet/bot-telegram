@@ -4,7 +4,7 @@ const fs = require('fs')
 const updateLogger = require('telegraf-update-logger');
 const chalk = require('chalk')
 const toMs = require('ms')
-let Bot_Token = 'TOKEN MU'
+let Bot_Token = '5019579779:AAGQbxfvzQ8wL7eXY-0_iGasHPVt-K1O4Ts'
 const util = require('util')
 const afk = JSON.parse(fs.readFileSync('./lib/afk.json'))
 const nekos = require('nekos.life')
@@ -169,7 +169,7 @@ _dir.splice(position, 1)
 }, 1000)
 }
 bot.on(['photo','video','text','sticker','document','contact','audio','location'],async(iky) => {
-const OwnerId = ['Rizky9788']
+const OwnerId = ['KevinAlfabet']
 awalan = '/'
 const reply = async(text) => {
 iky.reply.text(text,{ asReply: true })}
